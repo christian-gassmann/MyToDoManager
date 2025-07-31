@@ -2,7 +2,7 @@
 
 Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 
-## Features
+## Features (MVP)
 - Aufgaben erstellen, bearbeiten und löschen
 - Aufgaben als erledigt markieren
 - Speichern lokal
@@ -15,6 +15,7 @@ Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 
 ## Roadmap
 - [ ] Filter für erledigte Aufgaben
+- [ ] Sortieroptionen
 - [ ] SQLite oder Room für Datenspeicherung
 - [ ] Dunkelmodus
 - [ ] Wechsel auf MVVM
