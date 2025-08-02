@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.mytodomanager.Controller.TaskController;
+import com.example.mytodomanager.Model.Task;
 import com.example.mytodomanager.R;
 import com.example.mytodomanager.databinding.FragmentAddTaskBinding;
 
@@ -31,14 +33,14 @@ public class AddTaskFragment extends Fragment {
        binding.buttonAddTask.setOnClickListener(v -> {
            String input = binding.taskTitle.getText().toString().trim();
 
-//           if (!input.isEmpty()) {
-//               Task task = new Task(input);
-//               TaskController.getInstance().addTask(task);
-//               Toast.makeText(getContext(), "Aufgabe gespeichert", Toast.LENGTH_SHORT).show();
-//               binding.taskTitle.setText(""); // Eingabe zurücksetzen
-//           } else {
-//               Toast.makeText(getContext(), "Bitte Text eingeben", Toast.LENGTH_SHORT).show();
-//           }
+           if (!input.isEmpty()) {
+               Task task = new Task(input);
+               TaskController.getInstance().addTask(task);
+               Toast.makeText(getContext(), "Aufgabe gespeichert", Toast.LENGTH_SHORT).show();
+               binding.taskTitle.setText(""); // Eingabe zurücksetzen
+           } else {
+               Toast.makeText(getContext(), "Bitte Text eingeben", Toast.LENGTH_SHORT).show();
+           }
        });
    }
 }
