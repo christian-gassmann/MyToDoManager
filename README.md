@@ -5,7 +5,7 @@ Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 ## Features (MVP)
 - Aufgaben erstellen, bearbeiten und löschen
 - Aufgaben als erledigt markieren
-- Speichern lokal
+- Lokal speichern
 
 ## Technologien
 - Java, Android SDK
