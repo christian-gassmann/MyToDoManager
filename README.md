@@ -20,3 +20,7 @@ Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 - [ ] Dunkelmodus
 - [ ] Wechsel auf MVVM
 - [ ] Web API  
+
+## Lerninhalte / Technologien
+- Android Fragments
+- View Binding
