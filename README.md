@@ -1,6 +1,6 @@
 # MyToDoManager
 
-Einfache Aufgaben-Management App zur Übung von Basics mir Android.
+Einfache Aufgaben-Management App zur Übung von Basics mit Android.
 
 ## Features (MVP)
 - Aufgaben erstellen, bearbeiten und löschen
