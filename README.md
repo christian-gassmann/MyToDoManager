@@ -12,6 +12,7 @@ Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 - XML-Layouts
 - Git / Github
 - Modularer Aufbau nach MVC
+- JUnit 4
 
 ## Roadmap
 - [ ] Filter für erledigte Aufgaben
@@ -24,3 +25,4 @@ Einfache Aufgaben-Management App zur Übung von Basics mir Android.
 ## Lerninhalte / Technologien
 - Android Fragments
 - View Binding
+- JUnit 
