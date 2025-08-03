@@ -1,5 +1,7 @@
 package com.example.mytodomanager.Controller;
 
+import androidx.annotation.VisibleForTesting;
+
 import com.example.mytodomanager.Model.Task;
 
 import java.util.ArrayList;
@@ -18,11 +20,19 @@ public class TaskController {
     }
 
     public void addTask(Task task) {
+        if(task == null || task.getTitle() == null || task.getTitle().trim().isEmpty()) {
+            return;
+        }
         tasks.add(task);
     }
 
     public List<Task> getTasks() {
-        return new ArrayList<>(tasks); // Kopie zum Schutz
+        return new ArrayList<>(tasks);
+    }
+
+    @VisibleForTesting
+    public void clearList(){
+        tasks.clear();
     }
 }
 
